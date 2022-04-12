@@ -26,9 +26,22 @@
                  <style>
                    input[type="text"], textarea { 
                      background-color: rgba(235, 202, 52, 0.2) !important;
+                     width:400px !important ;
                      
-                    
+            
                     }
+
+                    @media screen and (max-width: 1000px) {
+                     
+                      input[type="text"], textarea { 
+                        width:200px !important;
+                    
+                     
+ 
+                    }
+
+
+                   }
                  </style>
 
                 <div class="input-group-prepend bg-transparent"> 
