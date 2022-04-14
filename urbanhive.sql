@@ -243,10 +243,20 @@ CREATE TABLE `times` (
 -- Dumping data for table `times`
 --
 
-INSERT INTO `times` (`id`, `time`, `created_at`, `updated_at`) VALUES
+/*INSERT INTO `times` (`id`, `time`, `created_at`, `updated_at`) VALUES
 (2, '10:00 - 12:00', NULL, NULL),
 (3, '12:00 - 2:00', NULL, NULL),
-(4, '2:00 - 4:00', NULL, NULL);
+(4, '2:00 - 4:00', NULL, NULL); */
+
+
+INSERT INTO `times` (`id`, `time`, `created_at`, `updated_at`) VALUES
+(2, '10:00', NULL, NULL),
+(3, '11:00', NULL, NULL),
+(4, '12:00', NULL, NULL),
+(5, '1:00', NULL, NULL),
+(6, '2:00', NULL, NULL),
+(7, '3:00', NULL, NULL);
+
 
 -- --------------------------------------------------------
 
