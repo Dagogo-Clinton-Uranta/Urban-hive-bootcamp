@@ -230,15 +230,15 @@
     <input type="text" name="phone" class="form-control" id="inputAddress2" placeholder="Phone">
 </div> 
 
-<!-- <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
+ <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms" style="display:none">
   <label for="inputAddress2" class="form-label">Courses</label>
             <select name="course" id="department" class="custom-select">
               <option value="">Courses </option>
-              <option value="Frontend"  >Frontend </option>
-              <option value="Backend"  >Backend </option>
-              <option value="Mobile App Developer"  >Mobile App</option>
+              <option value="see chosen developer" selected >see chosen developer</option>
+              <option value="see chosen developer"  >see chosen developer</option>
+              <option value="see chosen developer"  >see chosen developer</option>
             </select>
- </div> -->
+ </div> 
  
  <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
   <label for="inputAddress2" class="form-label">Develolpers</label>
