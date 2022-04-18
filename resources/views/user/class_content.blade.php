@@ -234,9 +234,9 @@
   <label for="inputAddress2" class="form-label">Courses</label>
             <select name="course" id="department" class="custom-select">
               <option value="">Courses </option>
-              <option value="Frontend" selected = <?php ?> >Frontend </option>
-              <option value="Backend" selected = <?php ?> >Backend </option>
-              <option value="Mobile App Developer" selected = <?php ?> >Mobile App</option>
+              <option value="Frontend"  >Frontend </option>
+              <option value="Backend"  >Backend </option>
+              <option value="Mobile App Developer"  >Mobile App</option>
             </select>
  </div> -->
  
@@ -244,9 +244,9 @@
   <label for="inputAddress2" class="form-label">Develolpers</label>
             <select name="developer" id="dev-name" class="custom-select">
               <option value="">Developers</option>
-              <option value="Backend Developer" selected = <?php ?> >Olanrewaju Kabir Backend Developer</option>
-              <option value="Frontend Developer" selected = <?php ?>>Dagogo Uranta Frontend Develper</option>
-              <option value="Mobile App Developer" selected = <?php ?> >Mobile App Developer</option>
+              <option value="Backend Developer"  >Olanrewaju Kabir Backend Developer</option>
+              <option value="Frontend Developer"  >Dagogo Uranta Frontend Develper</option>
+              <option value="Mobile App Developer"  >Mobile App Developer</option>
             </select>
  </div>
           
@@ -269,7 +269,8 @@
   <div class="col-12">
     <button  style="background-color:black" type="submit" class="btn btn-primary">Proceed to Payment</button>
   </div>
-</form>  
+</form>  <!-- OKAY SO i WANT THIS BUTTON TO REDIRECT TO THE PAYSTACK PAYMENT PAGE AND THEN PASS INFORMATION 
+          BACK TO OUR APP AND IT WILL STORE DATA IN THE DATABASE , BASED ON WHAT WAS PASSED BACK AND THEN IT CAN REDIRECT TO THAT SAME PAGE ! -->
 
 
 

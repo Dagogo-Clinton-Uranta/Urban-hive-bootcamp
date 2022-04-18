@@ -32,13 +32,16 @@ class UserController extends Controller
 
     public function bookclass(Request $request){
 
+    //if payment goes through ,THEN PUT THESE IN THE DATABASE AND SAY YOU HAVE SUCCESSFULLY BOOKED , OTHERWISE REDIRECT THEM WITH PAYMENT UNSUCCESSFUL ,
+   // PLEASE TRY TO BOOK AGAIN 
+
         Appoint::insert([
 
             'firstname' => $request->firstname,
             'lastname' => $request->lastname,
             'email' => $request->email,
             'phone' => $request->phone,
-            'course' => $request->course,
+            'course' => $request->developer, /*i made course to be the same as developer so it wont be empty in the database */
             'developer' => $request->developer,
             'date' => $request->date,
             'date' => $request->time,
@@ -47,7 +50,7 @@ class UserController extends Controller
 
          
 
-        return redirect()->back()->with('success', 'Congratulation you hav successfully book a class');
+        return redirect()->back()->with('success', 'Congratulations you have successfully booked a class');
 
     }
 
