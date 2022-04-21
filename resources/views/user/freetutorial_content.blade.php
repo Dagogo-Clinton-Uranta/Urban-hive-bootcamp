@@ -58,8 +58,7 @@
                   <img src="../free/assets/img/prog.jpg" alt="profile pic">
                   </div>
                   <span>Dagogo Uranta</span>
-                  <span>Release Date: 19th April 2022</span>
-                  <span>Duration: 18 mins</span>
+                  <span>19th April 2022  18 mins</span>
                 </div>
               </div>
             </div>
@@ -126,8 +125,8 @@
                   <img src="../free/assets/img/vscodethumb.webp" alt="profile image">
                   </div>
                   <span>Dagogo Uranta</span>
-                  <span>Release Date: 19th April 2022</span>
-                  <span>Duration: 18 mins</span>
+                 
+                  <span>19th April 2022  18 mins</span>
                 </div>
               </div>
             </div>
@@ -186,8 +185,7 @@
                   <img src="../free/assets/img/introtohtml.jpg" alt="python tutorial">
                   </div>
                   <span>Ola Kabir</span>
-                  <span>Release Date: 19th April 2022</span>
-                  <span>Duration: 18 mins</span>
+                  <span>19th April 2022  18 mins</span>
 
 
                 </div>
