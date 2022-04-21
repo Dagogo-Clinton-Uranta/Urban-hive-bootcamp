@@ -49,7 +49,7 @@
                 <a href=""></a>
               </div>
               <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                <img src="../free/assets/img/prog.jpg" alt="video thumbnail">
+                <img src="../free/assets/img/gray copy-min.jpg" alt="video thumbnail">
               </a>
             </div>
             <div class="body">
@@ -117,7 +117,7 @@
                 <a href="#"></a>
               </div>
               <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                    <img src="../free/assets/img/vscodethumb.webp" alt="bootstrap">
+                    <img src="../free/assets/img/gray copy-min.jpg" alt="bootstrap">
               </a>
             </div>
             <div class="body">
@@ -178,7 +178,7 @@
                 <a href="#"></a>
               </div>
               <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                <img src="../free/assets/img/introtohtml.jpg" alt="html thmbnail">
+                <img src="../free/assets/img/ola-profile2.png" alt="html thmbnail">
               </a>
             </div>
           <div class="body">
