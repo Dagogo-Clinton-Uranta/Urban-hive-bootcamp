@@ -186,9 +186,10 @@
                   <div class="avatar-img">
                   <img src="../free/assets/img/introtohtml.jpg" alt="python tutorial">
                   </div>
+                  <div style="display:flex;justify-content:space-between">
                   <span>Ola Kabir</span>
                   <span>19th April 2022 <br> 18 mins </span>
-                  
+                  <div>
 
                 </div>
               </div>
