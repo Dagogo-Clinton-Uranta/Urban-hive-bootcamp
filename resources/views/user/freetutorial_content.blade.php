@@ -187,8 +187,8 @@
                   <img src="../free/assets/img/introtohtml.jpg" alt="python tutorial">
                   </div>
                   <span>Ola Kabir</span>
-                  <span>19th April 2022</span>
-                  <span>  18 mins</span>
+                  <span>19th April 2022 <br> 18 mins </span>
+                  
 
                 </div>
               </div>
