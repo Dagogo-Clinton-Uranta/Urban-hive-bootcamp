@@ -57,7 +57,7 @@
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/prog.jpg" alt="profile pic">
+                  <img src="../free/assets/img/gray copy-min.jpg" alt="profile pic">
                   </div>
                   <span>Dagogo Uranta</span>
                   <span>19th April 2022</span>
@@ -125,7 +125,7 @@
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/vscodethumb.webp" alt="profile image">
+                  <img src="../free/assets/img/gray copy-min.jpg" alt="profile image">
                   </div>
                   <span>Dagogo Uranta</span>
                  
@@ -186,7 +186,7 @@
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/introtohtml.jpg" alt="python tutorial">
+                  <img src="../free/assets/img/ola-profile2.png" alt="python tutorial">
                   </div>
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Ola Kabir</span>
