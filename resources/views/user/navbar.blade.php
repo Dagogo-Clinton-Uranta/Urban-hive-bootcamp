@@ -44,9 +44,9 @@
                    }
                  </style>
 
-                <div class="input-group-prepend bg-transparent"> 
+                <span class="input-group-prepend bg-transparent"> 
                   <i class="input-group-text border-0 mdi mdi-magnify"></i>
-                </div> 
+                </span> 
               
               </div>
             </form>
