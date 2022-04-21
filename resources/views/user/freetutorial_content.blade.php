@@ -117,7 +117,7 @@
                 <a href="#"></a>
               </div>
               <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                    <img src="../free/assets/img/gray copy-min.jpg" alt="bootstrap">
+                    <img src="../free/assets/img/gray copy-min.jpg" alt="bootstrap" width="75%">
               </a>
             </div>
             <div class="body">
