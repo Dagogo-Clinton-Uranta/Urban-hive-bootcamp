@@ -41,23 +41,23 @@
   <!-- Day Select -->       
      <div class=" d-flex p-2 flex-row flex-wrap justify-content-between align-items-start daysMonitor"> 
       
-     <span class="w-23  m-1"  style="background-color:grey;color:white;padding:10px;border-radius:3px;" id="monday">
+     <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
                Monday 
           </span>
 
-          <span class="w-23  m-1" style="background-color:grey;color:white;padding:10px;border-radius:3px;" id="tuesday">
+          <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
                Tuesday
           </span>
 
-          <span class="w-23  m-1" style="background-color:grey;color:white;padding:10px;border-radius:3px;"  id="wednesday">
+          <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
                Wednesday
           </span>
 
-          <span class="w-23  m-1"  style="background-color:grey;color:white;padding:10px;border-radius:3px;" id="thursday">
+          <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
                Thursday
           </span>
           
-          <span class="w-23  m-1"  style="background-color:grey;color:white;padding:10px;border-radius:3px;" id="friday">
+          <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
                Friday
           </span>
      </div>  <!--widget Sm Day select ending -->
@@ -150,23 +150,23 @@
  <!-- Day Select -->       
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-between align-items-start daysMonitor"> 
      
-    <span class="w-23  m-1"  style="background-color:grey;color:white;padding:10px;border-radius:3px;" id="monday">
+    <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
               Monday 
          </span>
 
-         <span class="w-23  m-1" style="background-color:grey;color:white;padding:10px;border-radius:3px;" id="tuesday">
+         <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
               Tuesday
          </span>
 
-         <span class="w-23  m-1" style="background-color:grey;color:white;padding:10px;border-radius:3px;"  id="wednesday">
+         <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
               Wednesday
          </span>
 
-         <span class="w-23  m-1"  style="background-color:grey;color:white;padding:10px;border-radius:3px;" id="thursday">
+         <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
               Thursday
          </span>
          
-         <span class="w-23  m-1"  style="background-color:grey;color:white;padding:10px;border-radius:3px;" id="friday">
+         <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
               Friday
          </span>
     </div>  <!--widget Sm Day select ending -->
