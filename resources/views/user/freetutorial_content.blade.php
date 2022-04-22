@@ -188,9 +188,10 @@
                   <div class="avatar-img">
                   <img src="../free/assets/img/ola-profile2.png" alt="python tutorial">
                   </div>
-                  
+
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Ola Kabir</span>
+                  <span style="color:white">  18 mins</span> <!-- i made this whit to create a pseudo space -->
                   <span>19th April 2022  </span>
                   </div>
 
