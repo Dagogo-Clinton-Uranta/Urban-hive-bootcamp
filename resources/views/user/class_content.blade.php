@@ -29,7 +29,7 @@
             
             <div class="widgetSmUser ml-4">
            
-            <img src="/image/headshot-for-startup.webp" alt="profile pic" class="devAvatar" />
+            <img src="/image/ola-profile2.png" alt="profile pic" class="devAvatar" />
              <span class="widgetSmUsername"> Olanrewaju Kabir</span> 
              <span class="widgetSmUserTitle"> Php developer, MySQL ,CI/CD</span>
            
@@ -42,23 +42,33 @@
      <div class=" d-flex p-2 flex-row flex-wrap justify-content-between align-items-start daysMonitor"> 
       
      <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
-               Monday 
+     <button class=" btn btn-dark "> 
+         Monday
+          </button>
           </span>
 
           <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
-               Tuesday
+          <button class=" btn btn-dark "> 
+          Tuesday
+          </button>
           </span>
 
           <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
-               Wednesday
+          <button class=" btn btn-dark "> 
+         Wednesday
+          </button>
           </span>
 
           <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
-               Thursday
+          <button class=" btn btn-dark "> 
+            Thursday
+          </button>
           </span>
           
           <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
-               Friday
+          <button class=" btn btn-dark "> 
+         Friday
+          </button>
           </span>
      </div>  <!--widget Sm Day select ending -->
 
@@ -140,7 +150,7 @@
             
             <div class="widgetSmUser ml-4">
            
-           <img src="/image/Jonathan-Headshot.jpg" alt="profile pic" class="devAvatar" />
+           <img src="/image/grey copy-min.jpg" alt="profile pic" class="devAvatar" />
             <span class="widgetSmUsername"> Dagogo Uranta</span>
             <span class="widgetSmUserTitle"> Front end developer, Node Js ,UI/UX</span>
           
@@ -151,23 +161,33 @@
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-between align-items-start daysMonitor"> 
      
     <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
-              Monday 
+    <button class=" btn btn-dark "> 
+         Monday
+          </button> 
          </span>
 
          <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
-              Tuesday
+         <button class=" btn btn-dark "> 
+         Tuesday
+          </button>
          </span>
 
          <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
-              Wednesday
+         <button class=" btn btn-dark "> 
+         Wednesday
+          </button>
          </span>
 
          <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
-              Thursday
+         <button class=" btn btn-dark ">  
+          Thursday
+          </button>
          </span>
          
          <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
-              Friday
+         <button class=" btn btn-dark ">  
+         Friday
+         </button>
          </span>
     </div>  <!--widget Sm Day select ending -->
 

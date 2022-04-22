@@ -60,8 +60,8 @@
                   <img src="../free/assets/img/gray copy-min.jpg" alt="profile pic">
                   </div>
                   <span>Dagogo Uranta</span>
-                  <span>19th April 2022</span>
-                  <span>  18 mins</span>
+                  <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
+                  <span>19th April 2022 (18 mins long) </span>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@
                 <a href="#"></a>
               </div>
               <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                    <img src="../free/assets/img/gray copy-min.png" alt="bootstrap" >
+                    <img src="../free/assets/img/thumbnail-uhive.jpeg" alt="bootstrap" >
               </a>
             </div>
             <div class="body">
@@ -129,8 +129,8 @@
                   </div>
                   <span>Dagogo Uranta</span>
                  
-                  <span>19th April 2022</span>
-                  <span>  18 mins</span>
+                  <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
+                  <span>19th April 20220 (18 mins long) </span>
                 </div>
               </div>
             </div>
@@ -191,8 +191,8 @@
 
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Ola Kabir</span>
-                  <span style="color:white">  18 mins</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022  </span>
+                  <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
+                  <span>19th April 2022 (18 mins long) </span>
                   </div>
 
                 </div>
