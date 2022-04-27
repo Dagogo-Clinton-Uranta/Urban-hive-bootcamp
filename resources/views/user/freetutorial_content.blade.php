@@ -39,7 +39,8 @@
       <br>
       <hr/>
       <br>
-
+         
+       <div id="page1">
   <!--1-->   
        <div class="row"> 
        <div class="py-2 col-lg-4  wow zoomIn"> <!-- col-lg-4  -->
@@ -228,8 +229,123 @@
       <br>
       <hr/>
       <br>
-        
+     
+    </div> <!--page 1 ending -->
 
+    <!-- 4 (page 2 starting) -->
+  <div id="page2">
+    <div class="row">
+      <div class=" py-2 col-lg-4 wow zoomIn"> <!--col-lg-4  -->
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-category">
+                <a href="#"></a>
+              </div>
+              <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
+                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail">
+              </a>
+            </div>
+          <div class="body">
+              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8">Web development fundamentals</a></h5>
+              <div class="site-info">
+                <div class="avatar mr-2">
+                  <div class="avatar-img">
+                  <img src="../free/assets/img/ola-profile3.png" alt="ola profile image">
+                  </div>
+
+                  <div class=" d-flex justify-content-between align-items-center ">
+                  <span>Ola Kabir</span>
+                  <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
+                  <span>19th April 2022 (18 mins long) </span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div  class=" py-6 mx-5 col-lg-4 wow ">
+         <h1 style ="font-size:32px !important">Basic HTML & CSS </h1>
+           <br/>
+          In this video , you will follow one of our developers to create a basic page with html and css. This is to give you a taste of development of web pages and how they interact.
+          You will create html , css and Javascript files in this video and implement some basic functionality.
+        </div> 
+
+        <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
+        <a href="https://youtu.be/akid1fziH_8">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
+        <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
+       
+         <div  class="   d-flex justify-content-around align-items-center ">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        </div> 
+
+      </div> 
+
+      </div> <!-- video row ending -->
+
+
+<!-- 5 -->
+      <div class="row">
+      <div class=" py-2 col-lg-4 wow zoomIn"> <!--col-lg-4  -->
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-category">
+                <a href="#"></a>
+              </div>
+              <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
+                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail">
+              </a>
+            </div>
+          <div class="body">
+              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8">Web development fundamentals</a></h5>
+              <div class="site-info">
+                <div class="avatar mr-2">
+                  <div class="avatar-img">
+                  <img src="../free/assets/img/ola-profile3.png" alt="ola profile image">
+                  </div>
+
+                  <div class=" d-flex justify-content-between align-items-center ">
+                  <span>Ola Kabir</span>
+                  <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
+                  <span>19th April 2022 (18 mins long) </span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div  class=" py-6 mx-5 col-lg-4 wow ">
+         <h1 style ="font-size:32px !important">Basic HTML & CSS </h1>
+           <br/>
+          In this video , you will follow one of our developers to create a basic page with html and css. This is to give you a taste of development of web pages and how they interact.
+          You will create html , css and Javascript files in this video and implement some basic functionality.
+        </div> 
+
+        <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
+        <a href="https://youtu.be/akid1fziH_8">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
+        <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
+       
+         <div  class="   d-flex justify-content-around align-items-center ">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        </div> 
+
+      </div> 
+
+
+      </div> <!-- video row ending -->
+
+<!-- 6 -->
       <div class="row">
       <div class=" py-2 col-lg-4 wow zoomIn"> <!--col-lg-4  -->
           <div class="card-blog">
@@ -285,24 +401,30 @@
       </div> <!-- video row ending -->
 
 
-      </div>  <!-- .row-mt5 ending -->
+      
+
+      </div> <!-- this div is page 2 ending -->
+
+      <br>
+      <hr/>
+      <br>
 
        <!-- .pagination starting-->
        <div  class="   d-flex justify-content-center align-items-center ">
         <span>
-          <a href="{{ url('user/freestudent_tutorial')}}"><button class=" btn btn-dark "> 
+          <button class=" btn btn-dark " onclick="selectPage1()"> 
             1
           </button>
-        </a>
+        
         </span>
         
         &nbsp;&nbsp; <!--putting some space in between buttons -->
        
          <span>
-          <a href="{{ url('user/freestudent_tutorial')}}"><button class=" btn btn-dark "> 
+         <button class=" btn btn-dark " onclick="selectPage2()"> 
             2
           </button>
-        </a>
+        
         </span>
        <!-- <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -315,8 +437,27 @@
     </div>
   </div> <!-- .page-section -->
 
+     <!--  </div>   .row mt-5 ending -->
            
           
               </div>
             </div>
           </div>
+
+          <script>
+
+let page1 = document.querySelector('#page1');
+ let page2=  document.querySelector('#page2');
+
+
+ function selectPage1(){
+  page1.style["display"]= "inline";
+  page2.style["display"]= "none";
+ }
+
+ function selectPage2(){
+  page2.style["display"]= "inline";
+  page1.style["display"]= "none";
+ }
+
+          </script>
