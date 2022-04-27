@@ -49,7 +49,7 @@
                 <a href=""></a>
               </div>
               <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                <img src="../free/assets/img/gray copy-min.png" alt="video thumbnail">
+                <img src="../free/assets/img/gray sample-thumbnail.png" alt="video thumbnail">
               </a>
             </div>
             <div class="body">
@@ -57,7 +57,7 @@
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/gray copy-min.jpg" alt="profile pic">
+                  <img src="../free/assets/img/gray copy-min.png" alt="profile pic">
                   </div>
                   <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
@@ -117,7 +117,7 @@
                 <a href="#"></a>
               </div>
               <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                    <img src="../free/assets/img/thumbnail-uhive.jpeg" alt="bootstrap" >
+                    <img src="../free/assets/img/sample-thumbnail.png" alt="bootstrap" >
               </a>
             </div>
             <div class="body">
@@ -125,7 +125,7 @@
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/gray copy-min.jpg" alt="profile image">
+                  <img src="../free/assets/img/gray copy-min.png" alt="profile image">
                   </div>
                   <span>Dagogo Uranta</span>
                  
@@ -178,15 +178,15 @@
                 <a href="#"></a>
               </div>
               <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3.png" alt="html thmbnail">
+                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail">
               </a>
             </div>
           <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8">A short Intro to python programming</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8">Web development fundamentals</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/ola-profile2.png" alt="python tutorial">
+                  <img src="../free/assets/img/ola-profile3.png" alt="ola profile image">
                   </div>
 
                   <div class=" d-flex justify-content-between align-items-center ">
