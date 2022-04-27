@@ -290,7 +290,7 @@
        <!-- .pagination starting-->
        <div  class="   d-flex justify-content-center align-items-center ">
         <span>
-          <a href="{{ url('freestudent_tutorial')}}"><button class=" btn btn-dark "> 
+          <a href="{{ url('user/freestudent_tutorial')}}"><button class=" btn btn-dark "> 
             1
           </button>
         </a>
@@ -299,7 +299,7 @@
         &nbsp;&nbsp; <!--putting some space in between buttons -->
        
          <span>
-          <a href="{{ url('freestudent_tutorial')}}"><button class=" btn btn-dark "> 
+          <a href="{{ url('user/freestudent_tutorial')}}"><button class=" btn btn-dark "> 
             2
           </button>
         </a>
