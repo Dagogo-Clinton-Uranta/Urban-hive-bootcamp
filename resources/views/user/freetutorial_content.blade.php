@@ -288,16 +288,18 @@
       </div>  <!-- .row-mt5 ending -->
 
        <!-- .pagination starting-->
-       <div  class="   d-flex justify-content-around align-items-center ">
+       <div  class="   d-flex justify-content-center align-items-center ">
         <span>
-          <a href="{{ url('freetutorial_content')}}"><button class=" btn btn-dark "> 
+          <a href="{{ url('freestudent_tutorial')}}"><button class=" btn btn-dark "> 
             1
           </button>
         </a>
         </span>
-
-        <span>
-          <a href="{{ url('freetutorial_content2')}}"><button class=" btn btn-dark "> 
+        
+        &nbsp;&nbsp; <!--putting some space in between buttons -->
+       
+         <span>
+          <a href="{{ url('freestudent_tutorial')}}"><button class=" btn btn-dark "> 
             2
           </button>
         </a>
