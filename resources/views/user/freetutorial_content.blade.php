@@ -233,7 +233,7 @@
     </div> <!--page 1 ending -->
 
     <!-- 4 (page 2 starting) -->
-  <div id="page2">
+  <div id="page2" style="display:none !important">
     <div class="row">
       <div class=" py-2 col-lg-4 wow zoomIn"> <!--col-lg-4  -->
           <div class="card-blog">
@@ -401,7 +401,7 @@
       </div> <!-- video row ending -->
 
 
-      
+    
 
       </div> <!-- this div is page 2 ending -->
 
