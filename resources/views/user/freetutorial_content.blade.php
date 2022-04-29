@@ -58,11 +58,11 @@
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/gray copy-min.png" alt="profile pic">
+                  <img src="../free/assets/img/ola-profile3.png" alt="profile pic">
                   </div>
                   <span>Ola Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 (1 hour long) </span>
+                  <span>19th April 2022  (1 hour long) </span>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@
                   <span>Dagogo Uranta</span>
                  
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 20220 (18 mins long) </span>
+                  <span>19th April 2022  (18 mins long) </span>
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Ola Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 (18 mins long) </span>
+                  <span>19th April 2022  (18 mins long) </span>
                   </div>
 
                 </div>
@@ -244,7 +244,7 @@
                 <a href="#"></a>
               </div>
               <a href="https://youtu.be/75sQS5r1GPY" class="post-thumb">
-                <img src="../free/assets/img/" alt="positioning thumbnail"> <!-- a new thumbnail here -->
+                <img src="../free/assets/img/css-position-thumbnail.png" alt="positioning thumbnail"> <!-- a new thumbnail here -->
               </a>
             </div>
           <div class="body">
@@ -258,7 +258,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this white color to create a pseudo space -->
-                  <span>23rd April 2022 (23 mins long) </span>
+                  <span>23rd April 2022  (23 mins long) </span>
                   </div>
 
                 </div>
@@ -315,7 +315,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Ola Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>15th April 2022 (5 hours long) </span>
+                  <span>15th April 2022  (5 hours long) </span>
                   </div>
 
                 </div>
@@ -357,7 +357,7 @@
                 <a href="#"></a>
               </div>
               <a href="https://youtu.be/aa-cQp5wKU0" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3.png" alt="webpage thumbnail">  <!-- writing your first webpage thumbnail -->
+                <img src="../free/assets/img/webpage-thumbnail.png" alt="webpage thumbnail">  <!-- writing your first webpage thumbnail -->
               </a>
             </div>
           <div class="body">
@@ -371,7 +371,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 (32 mins long) </span>
+                  <span>19th April 2022  (32 mins long) </span>
                   </div>
 
                 </div>
