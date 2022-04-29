@@ -60,7 +60,7 @@
                   <div class="avatar-img">
                   <img src="../free/assets/img/ola-profile3.png" alt="profile pic">
                   </div>
-                  <span>Ola Kabir</span>
+                  <span>Olanrewaju Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
                   <span>19th April 2022 &nbsp; (1 hour long) </span>
                 </div>
@@ -193,7 +193,7 @@
                   </div>
 
                   <div class=" d-flex justify-content-between align-items-center ">
-                  <span>Ola Kabir</span>
+                  <span>Olanrewaju Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
                   <span>19th April 2022 &nbsp; (18 mins long) </span>
                   </div>
@@ -313,7 +313,7 @@
                   </div>
 
                   <div class=" d-flex justify-content-between align-items-center ">
-                  <span>Ola Kabir</span>
+                  <span>Olanrewaju Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
                   <span>15th April 2022 &nbsp; (5 hours long) </span>
                   </div>
