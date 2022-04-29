@@ -50,7 +50,7 @@
                 <a href=""></a>
               </div>
               <a href="https://youtu.be/9GQgRd3Yz1U" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3 .png" alt="video thumbnail">
+                <img src="../free/assets/img/ola-profile3.png" alt="video thumbnail">
               </a>
             </div>
             <div class="body">
@@ -62,7 +62,7 @@
                   </div>
                   <span>Ola Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022  (1 hour long) </span>
+                  <span>19th April 2022 &nbsp; (1 hour long) </span>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@
                   <span>Dagogo Uranta</span>
                  
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022  (18 mins long) </span>
+                  <span>19th April 2022 &nbsp; (18 mins long) </span>
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Ola Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022  (18 mins long) </span>
+                  <span>19th April 2022 &nbsp; (18 mins long) </span>
                   </div>
 
                 </div>
@@ -258,7 +258,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this white color to create a pseudo space -->
-                  <span>23rd April 2022  (23 mins long) </span>
+                  <span> 23rd April 2022 &nbsp; (23 mins long) </span>
                   </div>
 
                 </div>
@@ -315,7 +315,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Ola Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>15th April 2022  (5 hours long) </span>
+                  <span>15th April 2022 &nbsp; (5 hours long) </span>
                   </div>
 
                 </div>
@@ -371,7 +371,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022  (32 mins long) </span>
+                  <span>19th April 2022 &nbsp;  (32 mins long) </span>
                   </div>
 
                 </div>
@@ -440,7 +440,7 @@
     </div>
   </div> <!-- .page-section -->
 
-     <!--  </div>   .row mt-5 ending -->
+       </div>   <!--.row mt-5 ending -->
            
           
               </div>
