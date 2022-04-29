@@ -52,9 +52,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'), /* it was http://localhost before bridge tech advance */
+    'url' => env('APP_URL', 'http://localhost'), 
 
-    'asset_url' => env('ASSET_URL',null), /* it was null before bridgetech advance */
+    'asset_url' => env('ASSET_URL',null), 
 
     /*
     |--------------------------------------------------------------------------

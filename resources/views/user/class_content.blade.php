@@ -150,7 +150,7 @@
             
             <div class="widgetSmUser ml-4">
            
-           <img src="/image/grey copy-min.jpg" alt="profile pic" class="devAvatar" />
+           <img src="/image/gray copy-min.jpg" alt="profile pic" class="devAvatar" />
             <span class="widgetSmUsername"> Dagogo Uranta</span>
             <span class="widgetSmUserTitle"> Front end developer, Node Js ,UI/UX</span>
           

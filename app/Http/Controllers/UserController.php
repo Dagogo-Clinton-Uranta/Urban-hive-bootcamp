@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Auth;
 class UserController extends Controller
 {
     public function index(){
-
+  
+        #if a session value is a certain number return a certain page (consider using template literals to dynamically change page)
         return view('user.freestudent_tutorial');
     }
 

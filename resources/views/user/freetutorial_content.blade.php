@@ -49,8 +49,8 @@
               <div class="post-category">
                 <a href=""></a>
               </div>
-              <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                <img src="../free/assets/img/sample-thumbnail.png" alt="video thumbnail">
+              <a href="https://youtu.be/9GQgRd3Yz1U" class="post-thumb">
+                <img src="../free/assets/img/ola-profile3 .png" alt="video thumbnail">
               </a>
             </div>
             <div class="body">
@@ -60,9 +60,9 @@
                   <div class="avatar-img">
                   <img src="../free/assets/img/gray copy-min.png" alt="profile pic">
                   </div>
-                  <span>Dagogo Uranta</span>
+                  <span>Ola Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 (18 mins long) </span>
+                  <span>19th April 2022 (1 hour long) </span>
                 </div>
               </div>
             </div>
@@ -82,10 +82,11 @@
 
         <div  class=" py-2 col-lg-2 wow  d-flex flex-column justify-content-around align-items-center pl-5">
          
-        <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
+        <a href="https://youtu.be/9GQgRd3Yz1U" class="post-thumb">
         <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button>
-        <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
         </a>
+        <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
+        
         <div  class="  d-flex justify-content-around align-items-center ">
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -149,9 +150,10 @@
         <div  class=" py-2 col-lg-2 wow  d-flex flex-column justify-content-around align-items-center pl-5">
         <a href="https://youtu.be/akid1fziH_8"> <button type="button" class="btn btn-info dark "> 
           Watch <i class="mdi mdi-arrow-right"></i>
+          </a>
           <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
         </button>
-        </a>
+       
 
         <div  class="  d-flex justify-content-around align-items-center ">
         <span class="fa fa-star checked"></span>
@@ -178,12 +180,12 @@
               <div class="post-category">
                 <a href="#"></a>
               </div>
-              <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
+              <a href="https://youtu.be/0wSzCv1nM28" class="post-thumb">
                 <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail">
               </a>
             </div>
           <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8">Web development fundamentals</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/0wSzCv1nM28">Basic Web development</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -210,7 +212,7 @@
         </div> 
 
         <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
-        <a href="https://youtu.be/akid1fziH_8">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
+        <a href="https://youtu.be/0wSzCv1nM28">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
         <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
        
          <div  class="   d-flex justify-content-around align-items-center ">
@@ -241,22 +243,22 @@
               <div class="post-category">
                 <a href="#"></a>
               </div>
-              <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail">
+              <a href="https://youtu.be/75sQS5r1GPY" class="post-thumb">
+                <img src="../free/assets/img/" alt="positioning thumbnail"> <!-- a new thumbnail here -->
               </a>
             </div>
           <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8">Web development fundamentals</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/75sQS5r1GPY">CSS positioning Basics</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/ola-profile3.png" alt="ola profile image">
+                  <img src="../free/assets/img/gray copy-min.png" alt="dagogo profile image">
                   </div>
 
                   <div class=" d-flex justify-content-between align-items-center ">
-                  <span>Ola Kabir</span>
-                  <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 (18 mins long) </span>
+                  <span>Dagogo Uranta</span>
+                  <span style="color:white">  space filler</span> <!-- i made this white color to create a pseudo space -->
+                  <span>23rd April 2022 (23 mins long) </span>
                   </div>
 
                 </div>
@@ -266,14 +268,15 @@
         </div>
 
          <div  class=" py-6 mx-5 col-lg-4 wow ">
-         <h1 style ="font-size:32px !important">Basic HTML & CSS </h1>
+         <h1 style ="font-size:32px !important">CSS Positioning Basics </h1>
            <br/>
-          In this video , you will follow one of our developers to create a basic page with html and css. This is to give you a taste of development of web pages and how they interact.
-          You will create html , css and Javascript files in this video and implement some basic functionality.
+           This video explores the different types of positioning properties available in CSS. 
+           By watching this video ,you will gain an understanding of the use cases of each of these position properties, 
+           along with the confidence to try them yourself! Enjoy.
         </div> 
 
         <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
-        <a href="https://youtu.be/akid1fziH_8">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
+        <a href="https://youtu.be/75sQS5r1GPY">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
         <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
        
          <div  class="   d-flex justify-content-around align-items-center ">
@@ -297,12 +300,12 @@
               <div class="post-category">
                 <a href="#"></a>
               </div>
-              <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail">
+              <a href="https://youtu.be/vUwOW5VXM0Y" class="post-thumb">
+                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail"> <!-- new thumbnail needed here -->
               </a>
             </div>
           <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8">Web development fundamentals</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/vUwOW5VXM0Y">Web development (Indepth) </a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -312,7 +315,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Ola Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 (18 mins long) </span>
+                  <span>15th April 2022 (5 hours long) </span>
                   </div>
 
                 </div>
@@ -322,14 +325,14 @@
         </div>
 
          <div  class=" py-6 mx-5 col-lg-4 wow ">
-         <h1 style ="font-size:32px !important">Basic HTML & CSS </h1>
+         <h1 style ="font-size:32px !important">Web Development Indepth </h1>
            <br/>
-          In this video , you will follow one of our developers to create a basic page with html and css. This is to give you a taste of development of web pages and how they interact.
-          You will create html , css and Javascript files in this video and implement some basic functionality.
+          This video takes a thorough look at what web development is . It explores the purpose of each pillar of web development (HTML ,CSS and Javascript),
+           and displays how they interact with one another. It then goes into a tutorial on each of these technologies and how to set them up.
         </div> 
 
         <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
-        <a href="https://youtu.be/akid1fziH_8">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
+        <a href="https://youtu.be/vUwOW5VXM0Y">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
         <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
        
          <div  class="   d-flex justify-content-around align-items-center ">
@@ -353,22 +356,22 @@
               <div class="post-category">
                 <a href="#"></a>
               </div>
-              <a href="https://youtu.be/akid1fziH_8" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail">
+              <a href="https://youtu.be/aa-cQp5wKU0" class="post-thumb">
+                <img src="../free/assets/img/ola-profile3.png" alt="webpage thumbnail">  <!-- writing your first webpage thumbnail -->
               </a>
             </div>
           <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8">Web development fundamentals</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/aa-cQp5wKU0">Creating your First Webpage</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/ola-profile3.png" alt="ola profile image">
+                  <img src="../free/assets/img/gray copy-min.png" alt="dagogo profile image">
                   </div>
 
                   <div class=" d-flex justify-content-between align-items-center ">
-                  <span>Ola Kabir</span>
+                  <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 (18 mins long) </span>
+                  <span>19th April 2022 (32 mins long) </span>
                   </div>
 
                 </div>
@@ -378,14 +381,14 @@
         </div>
 
          <div  class=" py-6 mx-5 col-lg-4 wow ">
-         <h1 style ="font-size:32px !important">Basic HTML & CSS </h1>
+         <h1 style ="font-size:32px !important">Creating your First Webpage </h1>
            <br/>
-          In this video , you will follow one of our developers to create a basic page with html and css. This is to give you a taste of development of web pages and how they interact.
+          In this video , you will follow one of our developers ,step by step, to create a basic page with html and css. This is to give you a taste of development of web pages and how they interact.
           You will create html , css and Javascript files in this video and implement some basic functionality.
         </div> 
 
         <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
-        <a href="https://youtu.be/akid1fziH_8">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
+        <a href="https://youtu.be/aa-cQp5wKU0">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
         <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
        
          <div  class="   d-flex justify-content-around align-items-center ">
