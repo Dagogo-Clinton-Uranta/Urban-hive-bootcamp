@@ -10,7 +10,11 @@ class HomeController extends Controller
 {
     public function index(){
 
-        $role = Auth::User()->user_type;  /*hard coding 0 will still give Auth problems in the view*/
+        $role = 0  ;  /*hard coding 0 will still give Auth problems in the view*/
+        
+          if(Auth::User()){
+            $role =  Auth::User()->user_type; 
+        }
 
             if($role =='1'){
 
