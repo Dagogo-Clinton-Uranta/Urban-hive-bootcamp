@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function index(){
 
-        $role = Auth::User()->user_type;
+        $role = 0 ;/*i hard coded 0 to test , it is originally ->*/ /*Auth::User()->user_type;  */
 
             if($role =='1'){
 
