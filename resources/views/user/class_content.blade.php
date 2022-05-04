@@ -77,7 +77,7 @@
       <br>
 
  <!-- time select -->     
-    <div class="d-flex p-2 flex-row flex-wrap justify-content-between align-items-start clickMonitor">
+    <div class="d-flex p-2 flex-row flex-wrap justify-content-start align-items-start clickMonitor">
       
   
     @foreach($tst as $apps)
@@ -89,54 +89,7 @@
       @endforeach
 
   
-    <!--
-     
-    <span class="w-25 m-1" >
-             <button class=" btn btn-dark">
-               Monday 
-               </button>
-          </span>
-
-          <span class="w-25 m-1" >
-          <button class=" btn btn-dark">
-               tuesday
-               </button>
-          </span>
-
-          <span class="w-25 m-1" >
-          <button class=" btn btn-dark">
-               Wednesday
-               </button>
-          </span>
-
-          <span class="w-25 m-1" >
-          <button class=" btn btn-dark">
-               Wednesday
-               </button>
-          </span>
-          
-          <span class="w-25 m-1" >
-          <button class=" btn btn-dark">
-               Wednesday
-               </button>
-          </span>
-
-          <span class="w-25 m-1" >
-          <button class=" btn btn-dark">
-               Wednesday
-               </button>
-          </span>
-          <span class="w-25 m-1" >
-          <button class=" btn btn-dark">
-               Wednesday
-               </button>
-          </span>
-          <span class="w-25 m-1" >
-          <button class=" btn btn-dark">
-               Wednesday
-               </button>
-          </span>
--->
+    
 
           </div>   <!-- widget Sm Time select ending -->
 
