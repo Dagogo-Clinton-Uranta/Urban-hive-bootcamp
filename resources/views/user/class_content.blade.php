@@ -77,7 +77,7 @@
       <br>
 
  <!-- time select -->     
-    <div class="d-flex p-2 flex-row flex-wrap justify-content-start align-items-start clickMonitor">
+    <div class="d-flex p-2 flex-row flex-wrap justify-content-between align-items-start clickMonitor">
       
   
     @foreach($tst as $apps)
@@ -149,7 +149,7 @@
      <br>
 
 <!-- time select -->     
-   <div class="d-flex p-2 flex-row flex-wrap justify-content-start align-items-start clickMonitor">
+   <div class="d-flex p-2 flex-row flex-wrap justify-content-between align-items-start clickMonitor">
      
  
    @foreach($tst as $apps)
