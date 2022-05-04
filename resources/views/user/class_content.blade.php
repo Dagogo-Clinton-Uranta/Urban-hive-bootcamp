@@ -41,31 +41,31 @@
   <!-- Day Select -->       
      <div class=" d-flex p-2 flex-row flex-wrap justify-content-between align-items-start daysMonitor"> 
       
-     <span class="w-43  m-2"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
+     <span  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
       <!-- <button class=" btn btn-dark " style="color:black!important"> -->
          Monday
         <!--  </button> -->
           </span>
 
-          <span class="w-43  m-2" style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
+          <span  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
        <!--   <button class=" btn btn-dark " style="color:black!important"> -->
           Tuesday
        <!--   </button> -->
           </span>
 
-          <span class="w-43  m-2" style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
+          <span  style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
         <!--  <button class=" btn btn-dark " style="color:black!important"> -->
          Wednesday
        <!--   </button> -->
           </span>
 
-          <span class="w-43  m-2"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
+          <span  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
        <!--   <button class=" btn btn-dark " style="color:black!important"> -->
             Thursday
        <!--   </button> -->
           </span>
           
-          <span class="w-43  m-2"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
+          <span  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
         <!--  <button class=" btn btn-dark " style="color:black!important"> -->
          Friday
       <!--    </button> -->
@@ -81,7 +81,7 @@
       
   
     @foreach($tst as $apps)
-    <span class="w-43 m-2 time timeslot" >
+    <span class=" time timeslot" >
              <button class=" btn btn-dark " style="background-color:black!important">
                {{$apps->time}} 
                </button>
@@ -91,47 +91,47 @@
   
     <!--
      
-    <span class="w-23 m-2" >
+    <span class="w-23 " >
              <button class=" btn btn-dark">
                Monday 
                </button>
           </span>
 
-          <span class="w-23 m-2" >
+          <span class="w-23 " >
           <button class=" btn btn-dark">
                tuesday
                </button>
           </span>
 
-          <span class="w-23 m-2" >
+          <span class="w-23 " >
           <button class=" btn btn-dark">
                Wednesday
                </button>
           </span>
 
-          <span class="w-23 m-2" >
+          <span class="w-23 " >
           <button class=" btn btn-dark">
                Wednesday
                </button>
           </span>
           
-          <span class="w-23 m-2" >
+          <span class="w-23 " >
           <button class=" btn btn-dark">
                Wednesday
                </button>
           </span>
 
-          <span class="w-23 m-2" >
+          <span class="w-23 " >
           <button class=" btn btn-dark">
                Wednesday
                </button>
           </span>
-          <span class="w-23 m-2" >
+          <span class="w-23 " >
           <button class=" btn btn-dark">
                Wednesday
                </button>
           </span>
-          <span class="w-23 m-2" >
+          <span class="w-23 " >
           <button class=" btn btn-dark">
                Wednesday
                </button>
@@ -160,31 +160,31 @@
  <!-- Day Select -->       
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-between align-items-start daysMonitor"> 
      
-    <span class="w-43 m-2"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
+    <span   style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
    <!-- <button class=" btn btn-dark " style="color:black!important"> -->
          Monday
        <!--   </button> -->
          </span>
 
-         <span class="w-43 m-2" style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
+         <span  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
        <!--  <button class=" btn btn-dark " style="color:black!important"> -->
          Tuesday
         <!--  </button> -->
          </span>
 
-         <span class="w-43 m-2" style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
+         <span  style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
      <!--    <button class=" btn btn-dark " style="color:black!important"> -->
          Wednesday
       <!--    </button> -->
          </span>
 
-         <span class="w-43 m-2"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
+         <span   style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
       <!--   <button class=" btn btn-dark ">  -->
           Thursday
      <!--    </button> -->
          </span>
          
-         <span class="w-43 m-2"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
+         <span   style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
      <!--    <button class=" btn btn-dark " style="color:black!important">  -->
          Friday
       <!--  </button> -->
@@ -200,7 +200,7 @@
      
  
    @foreach($tst as $apps)
-   <span class="w-43 m-2 time timeslot" >
+   <span class=" time timeslot" >
             <button class=" btn btn-dark" style="background-color:black!important">
               {{$apps->time}} 
               </button>
