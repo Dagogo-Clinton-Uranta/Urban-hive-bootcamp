@@ -81,7 +81,7 @@
       
   
     @foreach($tst as $apps)
-    <span class=" w-25 m-1 time timeslot"  style="background-color:black!important;color:white !important;padding:10px;cursor:pointer !important;border-radius:5px;">
+    <span class=" w-25 m-1 time timeslot"  style="text-align:center;background-color:black!important;color:white !important;padding:10px;cursor:pointer !important;border-radius:5px;">
              <!-- <button class=" btn btn-dark " style="background-color:black!important"> -->
                {{$apps->time}} 
              <!--  </button> -->
@@ -200,7 +200,7 @@
      
  
    @foreach($tst as $apps)
-   <span class=" time timeslot w-25 m-1"  style="background-color:black!important;color:white !important;padding:10px; cursor:pointer !important;border-radius:5px;">
+   <span class=" time timeslot w-25 m-1"  style="text-align:center;background-color:black!important;color:white !important;padding:10px; cursor:pointer !important;border-radius:5px;">
            <!-- <button class=" btn btn-dark " style="background-color:black!important"> -->
               {{$apps->time}} 
              <!-- </button> -->
