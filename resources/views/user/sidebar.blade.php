@@ -5,8 +5,8 @@
 
           <li class="nav-item d-flex align-items-center justify-content-center;" style="background:black !important;color:white !important;" > 
           <div  class=" text-center navbar-brand-wrapper " style=" background:black !important;width:259px;"> <!-- d-flex align-items-center justify-content-center;  -->
-          <a class="navbar-brand brand-logo" href="index-2.html"><img src="admin/assets/images/urbanhive.png"   style="width:150px;height:165px;padding-top:8px;" alt="logo" /></a>
-          <!-- <a class="navbar-brand brand-logo-mini" href="index-2.html"><img src="admin/assets/images/urbanhive.png"  style="width:60px;height:60px;" alt="logo" /></a> -->
+          <a class="navbar-brand brand-logo" href="index-2.html"><img src="admin/assets/images/bridgetechlogo.png"   style="width:150px;height:165px;padding-top:8px;" alt="logo" /></a>
+          <!-- <a class="navbar-brand brand-logo-mini" href="index-2.html"><img src="admin/assets/images/bridgetechlogo.png"  style="width:60px;height:60px;" alt="logo" /></a> -->
         </div>
           </li> 
 

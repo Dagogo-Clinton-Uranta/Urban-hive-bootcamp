@@ -6,7 +6,7 @@
                 <!-- Logo 
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                    <img src="{{asset('/image/urbanhive.png') }}" height="50" width= "40"  > 
+                    <img src="{{asset('/image/bridgetechlogo.png') }}" height="50" width= "40"  > 
                   </a>
                 </div>
 

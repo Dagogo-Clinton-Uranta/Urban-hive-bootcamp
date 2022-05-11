@@ -1,8 +1,8 @@
 <nav    class=" navbar default-layout-navbar col-lg-11 col-11  p-0 fixed-top d-flex flex-row"> <!--  -->
       
      <!-- <div  class=" text-center navbar-brand-wrapper d-flex align-items-center justify-content-center;" style=" background:black !important;width:259px;">
-          <a class="navbar-brand brand-logo" href="index-2.html"><img src="admin/assets/images/urbanhive.png"   style="width:80px;height:65px;padding-top:8px;" alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="index-2.html"><img src="admin/assets/images/urbanhive.png"  style="width:60px;height:60px;" alt="logo" /></a>
+          <a class="navbar-brand brand-logo" href="index-2.html"><img src="admin/assets/images/bridgetechlogo.png"   style="width:80px;height:65px;padding-top:8px;" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index-2.html"><img src="admin/assets/images/bridgetechlogo.png"  style="width:60px;height:60px;" alt="logo" /></a>
         </div>  DONT DELETE THIS JUST YET,, LEAVE IT LIKE THIS-->
 
 
