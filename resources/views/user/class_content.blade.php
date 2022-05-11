@@ -7,13 +7,13 @@
              
          <!-- THE STUFF BELOW IS NOT NEEDED CUZ IT DOES NOT CORRESPOND WITH THE FIGMA, HENCE WHY IT IS COMMENTED OUT
                 <span class="page-title-icon bg-gradient-primary text-white mr-2 mt-6">
-                  <i class="mdi mdi-calendar"></i>
+                  
                 </span> Book A Class
               </h3>
               <nav aria-label="breadcrumb">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item active" aria-current="page">
-                    <span></span>Overview <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                    <span></span>Overview
                   </li>
                 </ul>
               </nav> -->
