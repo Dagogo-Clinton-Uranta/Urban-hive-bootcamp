@@ -46,7 +46,7 @@
             </li>
 
 
-       <!--
+       
             <li class="nav-item" style="background:black !important;color:white !important;">
               <a class="nav-link" href="{{ url('user_student')}}">
                 <span class="menu-title ml-5" style="color:white !important;">Sessions</span>
@@ -60,7 +60,7 @@
                 <i class="mdi mdi-calendar menu-icon"></i>
               </a>
             </li>
-
+<!--
 
            <li class="nav-item" style="background:black !important;color:white !important;"> 
               <a class="nav-link" >  href="{{ url('user_student')}}"
