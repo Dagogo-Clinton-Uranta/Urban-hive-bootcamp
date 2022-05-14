@@ -243,7 +243,7 @@
        <!-- <a href="https://paystack.com/pay/urbanhive-session-payment" >  <button  style="background-color:black" type="button" class="btn btn-primary">Proceed to Payment</button> </a> -->
     <button  style="background-color:black" type="submit" class="btn btn-primary">Book Now</button>  <!-- this is to add to the database ,figure out how to combine them 
   </div>
-</form>  <!-- OKAY SO i WANT THIS BUTTON TO REDIRECT TO THE PAYSTACK PAYMENT PAGE AND THEN PASS INFORMATION 
+</form>   OKAY SO i WANT THIS BUTTON TO REDIRECT TO THE PAYSTACK PAYMENT PAGE AND THEN PASS INFORMATION 
           BACK TO OUR APP AND IT WILL STORE DATA IN THE DATABASE , BASED ON WHAT WAS PASSED BACK AND THEN IT CAN REDIRECT TO THAT SAME PAGE ! -->
 
 
