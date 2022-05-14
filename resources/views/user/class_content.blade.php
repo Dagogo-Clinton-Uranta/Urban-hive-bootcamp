@@ -40,34 +40,36 @@
         
   <!-- Day Select -->       
      <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
+
+     <input type="date"  class="w-50  m-1" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
       
-     <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
-      <!-- <button class=" btn btn-dark " style="color:black!important"> -->
+   <!--  <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
+     
          Monday
-        <!--  </button> -->
+        
           </span>
 
           <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
-       <!--   <button class=" btn btn-dark " style="color:black!important"> -->
+      
           Tuesday
-       <!--   </button> -->
+      
           </span>
 
           <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
-        <!--  <button class=" btn btn-dark " style="color:black!important"> -->
+       
          Wednesday
-       <!--   </button> -->
+       
           </span>
 
           <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
-       <!--   <button class=" btn btn-dark " style="color:black!important"> -->
+     
             Thursday
-       <!--   </button> -->
-          </span>
+      
+          </span> -->
           
           <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
         <!--  <button class=" btn btn-dark " style="color:black!important"> -->
-         Friday
+         Choose Date
       <!--    </button> -->
           </span>
      </div>  <!--widget Sm Day select ending -->
@@ -112,35 +114,37 @@
        
  <!-- Day Select -->       
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
+
+    <input type="date"  class="w-50  m-1" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
      
-    <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="monday">
-   <!-- <button class=" btn btn-dark " style="color:black!important"> -->
+   <!-- <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="monday">
+  
          Monday
-       <!--   </button> -->
+       
          </span>
 
          <span class="w-23 m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="tuesday">
-       <!--  <button class=" btn btn-dark " style="color:black!important"> -->
+       
          Tuesday
-        <!--  </button> -->
+       
          </span>
 
          <span class="w-23 m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;"  id="wednesday">
-     <!--    <button class=" btn btn-dark " style="color:black!important"> -->
+    
          Wednesday
-      <!--    </button> -->
+     
          </span>
 
          <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="thursday">
-      <!--   <button class=" btn btn-dark ">  -->
+     
           Thursday
-     <!--    </button> -->
-         </span>
+    
+         </span> -->
          
          <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="friday">
-     <!--    <button class=" btn btn-dark " style="color:black!important">  -->
-         Friday
-      <!--  </button> -->
+     
+         Choose Date
+      
          </span>
     </div>  <!--widget Sm Day select ending -->
 
@@ -188,7 +192,7 @@
  <!-- Day Select -->       
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
      
-       <input type="date"  class="w-75  m-1" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:3px;"/> 
+       <input type="date"  class="w-50  m-1" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
 
       <!--
           <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="monday">
@@ -381,18 +385,29 @@
 
 
  function selectDay(event){
-      pickedDay = event.target.textContent.trim()
+     /* pickedDay = event.target.textContent.trim() */
+
+     pickedDay = event.target.value()
 
       /*THIS IS TO CHANGE THE DATE ACCORDING TO THE DAY YOU PICKED */
       /*stating my variables first */
       var today = new Date();
       
-      daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+      /*daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]*/
 
    
-if(daysOfWeek.indexOf(pickedDay)  <= today.getDay()){
+if(/*daysOfWeek.indexOf(pickedDay)*/ new Date(pickedDay)  <= today){
 
-   var nextweek = new Date(today.getFullYear(), today.getMonth(), today.getDate()+7-(today.getDay()- daysOfWeek.indexOf(pickedDay)));
+  window.alert('Please choose a day in the future !')
+   return; }
+
+   else if (new Date(pickedDay)  >   new Date(today.setMonth(today.getMonth()+3)) ){
+    window.alert('Your chosen Day is too far ahead!')
+   return; } 
+  
+  
+
+  /* var nextweek = new Date(today.getFullYear(), today.getMonth(), today.getDate()+7-(today.getDay()- daysOfWeek.indexOf(pickedDay)));
 
 
 
@@ -401,19 +416,19 @@ var month = ("0" + (nextweek.getMonth() + 1)).slice(-2);
 
 var oneWeekLater = nextweek.getFullYear()+"-"+(month)+"-"+(day) ;
 
-chosenDay.value = oneWeekLater;
-  }else{
+chosenDay.value = oneWeekLater;*/
+  else{
 
-     var appointmentDay  = new Date(today.getFullYear(), today.getMonth(), today.getDate() +(daysOfWeek.indexOf(pickedDay) - today.getDay()));
+    /* var appointmentDay  = new Date(today.getFullYear(), today.getMonth(), today.getDate() +(daysOfWeek.indexOf(pickedDay) - today.getDay()));
 
 
 
 var day = ("0" + appointmentDay.getDate()).slice(-2);
 var month = ("0" + (appointmentDay.getMonth() + 1)).slice(-2);
 
-var appointmentFullDate = appointmentDay.getFullYear()+"-"+(month)+"-"+(day) ;
+var appointmentFullDate = appointmentDay.getFullYear()+"-"+(month)+"-"+(day) ;*/
 
-chosenDay.value = appointmentFullDate;
+chosenDay.value = new Date(pickedDay);
 
   }
 
@@ -481,7 +496,7 @@ slotParents[i].childNodes.forEach((item) => {item.addEventListener("click", fill
 
 for(let i=0;i<daysParents.length;i++){
      
-    /* daysParents[i].childNodes.forEach((item) => {item.addEventListener("click", selectDay)} ) */
+    daysParents[i].childNodes.forEach((item) => {item.addEventListener("change", selectDay)} ) 
      
      }
 console.log(chosenTime.options.selectedIndex)
