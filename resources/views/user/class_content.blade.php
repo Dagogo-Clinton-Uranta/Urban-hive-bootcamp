@@ -188,7 +188,7 @@
  <!-- Day Select -->       
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
      
-       <input type="date"  min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}" /> 
+       <input type="date"  class="w-75  m-1" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:3px;"/> 
 
       <!--
           <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="monday">
@@ -481,7 +481,7 @@ slotParents[i].childNodes.forEach((item) => {item.addEventListener("click", fill
 
 for(let i=0;i<daysParents.length;i++){
      
-     daysParents[i].childNodes.forEach((item) => {item.addEventListener("click", selectDay)} ) 
+    /* daysParents[i].childNodes.forEach((item) => {item.addEventListener("click", selectDay)} ) */
      
      }
 console.log(chosenTime.options.selectedIndex)
