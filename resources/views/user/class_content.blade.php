@@ -113,31 +113,31 @@
  <!-- Day Select -->       
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
      
-    <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
+    <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="monday">
    <!-- <button class=" btn btn-dark " style="color:black!important"> -->
          Monday
        <!--   </button> -->
          </span>
 
-         <span class="w-23 m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;" id="tuesday">
+         <span class="w-23 m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="tuesday">
        <!--  <button class=" btn btn-dark " style="color:black!important"> -->
          Tuesday
         <!--  </button> -->
          </span>
 
-         <span class="w-23 m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;"  id="wednesday">
+         <span class="w-23 m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;"  id="wednesday">
      <!--    <button class=" btn btn-dark " style="color:black!important"> -->
          Wednesday
       <!--    </button> -->
          </span>
 
-         <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="thursday">
+         <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="thursday">
       <!--   <button class=" btn btn-dark ">  -->
           Thursday
      <!--    </button> -->
          </span>
          
-         <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="friday">
+         <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="friday">
      <!--    <button class=" btn btn-dark " style="color:black!important">  -->
          Friday
       <!--  </button> -->
@@ -168,6 +168,95 @@
 
 
          </li> <!-- widget Sm List item ending -->
+
+
+
+
+          <!-- 1 -->      <li class="widgetSmListItem" >
+            
+          <div class="widgetSmUser ml-4">
+           
+           <img src="/image/Jonathan-Headshot.jpg" alt="profile pic" class="devAvatar" />
+            <span class="widgetSmUsername"> Abu Bakir </span> 
+            <span class="widgetSmUserTitle"> Flutter developer, Dart ,Kotlin </span>
+          
+           </div>
+
+          
+      <div class=" d-flex flex-column "> 
+       
+ <!-- Day Select -->       
+    <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
+     
+       <input type="date"  min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}" /> 
+
+      <!--
+          <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="monday">
+    
+           Monday
+      
+         </span>
+
+         <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="tuesday">
+      
+         Tuesday
+     
+         </span>
+
+         <span class="w-23  m-1" style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;"  id="wednesday">
+      
+        Wednesday
+     
+         </span>
+
+         <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="thursday">
+      
+           Thursday
+     
+         </span> -->
+         
+         <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="friday">
+       <!--  <button class=" btn btn-dark " style="color:black!important"> -->
+        Choose Day
+     <!--    </button> -->
+         </span>
+    </div>  <!--widget Sm Day select ending -->
+
+     <br>
+     <hr/>
+     <br>
+
+<!-- time select -->     
+   <div class="d-flex p-2 flex-row flex-wrap justify-content-between align-items-start clickMonitor">
+     
+ 
+   @foreach($tst as $apps)
+   <span class=" w-25 m-1 time timeslot"  style="text-align:center;background-color:black!important;color:white !important;padding:10px;cursor:pointer !important;border-radius:5px;">
+            <!-- <button class=" btn btn-dark " style="background-color:black!important"> -->
+              {{$apps->time}} 
+            <!--  </button> -->
+         </span>      
+     @endforeach
+
+ 
+   
+
+         </div>   <!-- widget Sm Time select ending -->
+
+     </div> 
+
+
+         </li> <!-- widget Sm List item ending -->
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -219,7 +308,7 @@
               <option value="">Developers</option>
               <option value="Backend Developer"  >Olanrewaju Kabir Backend Developer</option>
               <option value="Frontend Developer"  >Dagogo Uranta Frontend Develper</option>
-              <option value="Mobile App Developer"  >Mobile App Developer</option>
+              <option value="Mobile App Developer"  >Abu Bakir Mobile App Developer</option>
             </select>
  </div>
           
