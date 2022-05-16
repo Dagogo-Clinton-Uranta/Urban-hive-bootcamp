@@ -388,7 +388,8 @@
      /* pickedDay = event.target.textContent.trim() */
 
      pickedDay = event.target.value()
-
+     console.log(pickedDay)
+     console.log(event.target.value)
       /*THIS IS TO CHANGE THE DATE ACCORDING TO THE DAY YOU PICKED */
       /*stating my variables first */
       var today = new Date();
