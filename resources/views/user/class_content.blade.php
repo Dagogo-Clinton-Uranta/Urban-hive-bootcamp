@@ -496,7 +496,7 @@ slotParents[i].childNodes.forEach((item) => {item.addEventListener("click", fill
 
 for(let i=0;i<daysParents.length;i++){
      
-    daysParents[i].childNodes.forEach((item) => {item.addEventListener("select", selectDay)} ) 
+    daysParents[i].childNodes.forEach((item) => {item.addEventListener("change", selectDay)} ) 
      
      }
 console.log(chosenTime.options.selectedIndex)
