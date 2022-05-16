@@ -41,7 +41,7 @@
   <!-- Day Select -->       
      <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
 
-     <input type="date"  class="w-65  m-1" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
+     <input type="date"  class="w-65  m-1"  value="{{date('Y-m-d',strtotime('+1 day')); }}"   min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
       
    <!--  <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;" id="monday">
      
@@ -115,7 +115,7 @@
  <!-- Day Select -->       
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
 
-    <input type="date"  class="w-65  m-1" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
+    <input type="date"  class="w-65  m-1"  value="{{date('Y-m-d',strtotime('+1 day')); }}"  min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
      
    <!-- <span class="w-23 m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="monday">
   
@@ -192,7 +192,7 @@
  <!-- Day Select -->       
     <div class=" d-flex p-2 flex-row flex-wrap justify-content-start align-items-start daysMonitor"> 
      
-       <input type="date"  class="w-65  m-1" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
+       <input type="date"   class="w-65  m-1"  value="{{date('Y-m-d',strtotime('+1 day')); }}" min="{{date('Y-m-d'); }}" max="{{date('Y-m-d',strtotime('+3 months')); }}"   style="border-radius:6px;"/> 
 
       <!--
           <span class="w-23  m-1"  style="background-color:black;color:white;padding:10px;border-radius:3px;cursor:pointer;" id="monday">
@@ -318,7 +318,7 @@
           
 <div class="col-6">
     <label for="inputAddress2" class="form-label">Date</label>
-    <input type="date" name="date" class="form-control day-select" id="inputAddress2" placeholder="Message">
+    <input type="date" name="date" class="form-control day-select" id="inputAddress2" >
 </div> 
 <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
 
