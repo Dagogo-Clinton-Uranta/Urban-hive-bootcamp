@@ -317,8 +317,8 @@
  </div>
           
 <div class="col-6">
-    <label for="inputAddress2" class="form-label">Date</label>
-    <input type="date" name="date" class="form-control day-select" id="inputAddress2" >
+    <label for="inputAddress3" class="form-label">Date</label>
+    <input type="date" name="date" class="form-control day-select" id="inputAddress3" >
 </div> 
 <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
 
@@ -369,6 +369,8 @@
  let devOptions = document.getElementById('dev-name');
  let options = document.getElementById('dev-name').options;
  let selectedDev = '';
+
+ let selectedDate = document.getElementById("inputAddress3");
 
  
  let chosenTime =  document.querySelector('.time-select');
@@ -429,14 +431,14 @@ var month = ("0" + (appointmentDay.getMonth() + 1)).slice(-2);
 
 var appointmentFullDate = appointmentDay.getFullYear()+"-"+(month)+"-"+(day) ;*/
 
-chosenDay.value = new Date(pickedDay);
+chosenDay.value = pickedDay;
 
   }
 
   console.log(chosenTime.options.selectedIndex)
 
 if (chosenTime.options.selectedIndex === 0){
-  window.alert('selected a day. Please choose a time period.')
+  window.alert('You have selected a day. Please choose a time period.')
   
   }
   else if(chosenTime.options.selectedIndex  !== 0){
@@ -460,6 +462,11 @@ if (chosenTime.options.selectedIndex === 0){
     
   console.log(chosenTime.value)
   console.log(event.target.textContent.trim())
+
+
+
+
+  
 
   /*why two previous siblings to get to the developers name ? it dont make no sense */
   selectedDev = event.target.parentElement.parentElement.parentElement.previousSibling.previousSibling.childNodes[3].textContent
