@@ -14,7 +14,7 @@
                 <x-jet-input id="first-name" class="block mt-1 w-full" type="text" name="first name" :value="old('first-name')" required autofocus autocomplete=" first name" />
             </div>
 
-
+            <br/>
 
             <div>
                 <x-jet-label for="name" value="{{ __('Last Name') }}" />
