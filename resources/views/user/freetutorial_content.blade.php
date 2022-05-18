@@ -641,6 +641,7 @@
         
         </span>
 
+        &nbsp;&nbsp; <!--putting some space in between buttons -->
         <span>
          <button class=" btn btn-dark " onclick="selectPage3()"> 
             3
