@@ -95,7 +95,7 @@ class AdminController extends Controller
 
          
 
-        return redirect()->back()->with('success', 'Congratulations you have successfully booked a class');
+        return redirect()->back()->with('success', 'Congratulations! You have successfully booked a class.');
 
     }
 
