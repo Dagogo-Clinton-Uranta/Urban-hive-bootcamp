@@ -19,6 +19,17 @@
               </nav> -->
             </div>
 
+       
+            @if(session('success'))
+              <div class="alert alert-success alert-dismissible fade show" role="alert">
+                   <strong>{{session('success')}}</strong> 
+                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>  <!-- alert alert-success -->
+             @endif
+
+
+
+
             
         <!--    <div class="widgetDivider " > the things in the div below ,make them into one column for small screens with developer pics on top -->
             <div  style="margin-top:5%; " class = "listContainer  p-0"> <!-- mt-0 list container starting -->
@@ -278,22 +289,22 @@
     <form class="row g-3" action="{{ url('booking_class')}}"  id="personal"  style="display:none" method="POST" enctype="multipart/form-data">  <!-- I PUT DISPLAY NONE CUZ I WANT TO MAKE IT ACTIVE WITH JAVASCRIPT, ONLY AFTER THEY HAVE PICKED THE DEV THEY WANT   -->
         @csrf
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">FirstName </label>
-    <input type="text" name="firstname" class="form-control" id="inputEmail4">
+    <label for="inputEmail4" class="form-label">First Name </label>
+    <input type="text" name="firstname" class="form-control" required id="inputEmail4">
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">LastName</label>
-    <input type="text" name="lastname" class="form-control" id="inputPassword4">
+    <label for="inputPassword4" class="form-label">Last Name</label>
+    <input type="text" name="lastname" class="form-control"  required id="inputPassword4">
   </div>
   
   <div class="col-6">
     <label for="inputAddress" class="form-label">Email</label>
-    <input type="text" name="email" class="form-control" id="inputAddress" placeholder="Email">
+    <input type="text" name="email" class="form-control"   required id="inputAddress" placeholder="Email">
   </div>
 
   <div class="col-6">
     <label for="inputAddress2" class="form-label">Phone Number</label>
-    <input type="text" name="phone" class="form-control" id="inputAddress2" placeholder="Phone">
+    <input type="text" name="phone" class="form-control" required id="inputAddress2" placeholder="Phone">
 </div> 
 
  <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms" style="display:none">
@@ -346,13 +357,7 @@
               </div>
 
 
-              @if(session('success'))
-              <div class="alert alert-success alert-dismissible fade show" role="alert">
-                   <strong>{{session('success')}}</strong> 
-                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>  <!-- alert alert-success -->
-     @endif
-
+             
 
 
 

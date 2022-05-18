@@ -236,7 +236,7 @@
 
 
 
-    <div id="page2"> <!--Page 2 starts -->
+    <div id="page2"  style="display:none !important"> <!--Page 2 starts -->
   <!-- 4  -->   
        <div class="row"> 
        <div class="py-2 col-lg-4  wow zoomIn"> <!-- col-lg-4  -->
