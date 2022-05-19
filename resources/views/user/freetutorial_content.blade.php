@@ -235,7 +235,71 @@
 
     <div id="page2"  style="display:none !important"> <!--Page 2 starts -->
   <!-- 4  -->   
-       <div class="row"> 
+       
+  <div class="row">
+      <div class=" py-2 col-lg-4 wow zoomIn"> <!--col-lg-4  -->
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-category">
+                <a href="#"></a>
+              </div>
+              <a href="https://youtu.be/vUwOW5VXM0Y" target="_blank" rel="noopener noreferrer" class="post-thumb">
+                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail"> <!-- new thumbnail needed here -->
+              </a>
+            </div>
+          <div class="body">
+              <h5 class="post-title"><a href="https://youtu.be/vUwOW5VXM0Y" target="_blank" rel="noopener noreferrer">Web development (Indepth) </a></h5>
+              <div class="site-info">
+                <div class="avatar mr-2">
+                  <div class="avatar-img">
+                  <img src="../free/assets/img/ola-profile3.png" alt="ola profile image">
+                  </div>
+
+                  <div class=" d-flex justify-content-between align-items-center ">
+                  <span>Olanrewaju Kabir</span>
+                  <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
+                  <span>18th March 2022 &nbsp; (5 hours long) </span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div  class=" py-6 mx-5 col-lg-4 wow ">
+         <h1 style ="font-size:32px !important">(18th March Session) Web Development Indepth </h1>
+           <br/>
+          This video takes a thorough look at what web development is . It explores the purpose of each pillar of web development (HTML ,CSS and Javascript),
+           and displays how they interact with one another. It then goes into a tutorial on each of these technologies and how to set them up.
+        </div> 
+
+        <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
+        <a href="https://youtu.be/vUwOW5VXM0Y" target="_blank" rel="noopener noreferrer">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
+        <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
+       
+         <div  class="   d-flex justify-content-around align-items-center ">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        </div> 
+
+      </div> 
+        
+
+      </div> <!-- video row ending -->
+       
+
+      
+        <br>
+      <hr/>
+      <br>
+
+ <!--5 -->   
+   
+ <div class="row"> 
        <div class="py-2 col-lg-4  wow zoomIn"> <!-- col-lg-4  -->
           <div class="card-blog">
             <div class="header">
@@ -247,7 +311,7 @@
               </a>
             </div>
             <div class="body">
-              <h5 class="post-title"><a href="">Ever wondered what Programming is about? Find out here.</a></h5>
+              <h5 class="post-title"><a href="">A continuation of the  web development session above.</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -267,7 +331,7 @@
          </div>  <!--  col-lg 4 ending -->
        
          <div  class=" py-6 mx-5 col-lg-4 wow ">
-           <h1 style ="font-size:32px !important"> Intro to Programming</h1>
+           <h1 style ="font-size:32px !important"> (18th March Session) Web Development Cont'd</h1>
            <br/>
           This Video is for absolute beginners with no experience in programming. 
           It aims to give a high level overview into what programmers do, and the capability of software programs.
@@ -295,71 +359,7 @@
        
 
         </div> <!-- video-row ending -->
-       
 
-      
-        <br>
-      <hr/>
-      <br>
-
- <!--5 -->   
- 
-      <div class="row">
-       <div class=" py-2  col-lg-4 wow" >  <!-- class="col-lg-4 py-2 wow zoomIn" -->
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-category">
-                <a href="#"></a>
-              </div>
-              <a href="https://youtu.be/akid1fziH_8"  target="_blank" rel="noopener noreferrer" class="post-thumb">
-                    <img src="../free/assets/img/sample-thumbnail.png" alt="bootstrap" >
-              </a>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8" target="_blank" rel="noopener noreferrer">Get Started With Your First Text Editor</a></h5>
-              <div class="site-info">
-                <div class="avatar mr-2">
-                  <div class="avatar-img">
-                  <img src="../free/assets/img/gray copy-min.png" alt="profile image">
-                  </div>
-                  <span>Dagogo Uranta</span>
-                 
-                  <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 &nbsp; (18 mins long) </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div  class=" py-6  mx-5 col-lg-4 wow ">
-        <h1 style ="font-size:32px !important">Visual Studio Code</h1>
-           <br/>
-          This is a walkthrough , on installing and setting up visual studio code. 
-          VS code was created by microsoft, and is one of the most popular code editors in the world, because of it's multitude of features and simplicity to use.
-          At the end of this tutorial,you will have downloaded and set up visual studio code. You will also be familiar with a basic navigation of VS code.
-        </div> 
-
-        <div  class=" py-2 col-lg-2 wow  d-flex flex-column justify-content-around align-items-center pl-5">
-        <a href="https://youtu.be/akid1fziH_8" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-info dark "> 
-          Watch <i class="mdi mdi-arrow-right"></i>
-          </a>
-          <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
-        </button>
-       
-
-        <div  class="  d-flex justify-content-around align-items-center ">
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        </div> 
-
-        </div> 
-
-     
-      </div> <!--video row ending -->
 
       <br>
       <hr/>
@@ -378,7 +378,7 @@
               </a>
             </div>
           <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/0wSzCv1nM28" target="_blank" rel="noopener noreferrer">Basic Web development</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/0wSzCv1nM28" target="_blank" rel="noopener noreferrer">More Web development</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -388,7 +388,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Olanrewaju Kabir</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 &nbsp; (18 mins long) </span>
+                  <span>18th March 2022 &nbsp; (1.5 hours long) </span>
                   </div>
 
                 </div>
@@ -398,7 +398,7 @@
         </div>
 
          <div  class=" py-6 mx-5 col-lg-4 wow ">
-         <h1 style ="font-size:32px !important">Basic HTML & CSS </h1>
+         <h1 style ="font-size:32px !important"> (18th March Session) Web Development Continued </h1>
            <br/>
           In this video , you will follow one of our developers to create a basic page with html and css. This is to give you a taste of development of web pages and how they interact.
           You will create html , css and Javascript files in this video and implement some basic functionality.
@@ -497,49 +497,52 @@
       <br>
 
 <!-- 8 -->
-      <div class="row">
-      <div class=" py-2 col-lg-4 wow zoomIn"> <!--col-lg-4  -->
+  
+<div class="row">
+       <div class=" py-2  col-lg-4 wow" >  <!-- class="col-lg-4 py-2 wow zoomIn" -->
           <div class="card-blog">
             <div class="header">
               <div class="post-category">
                 <a href="#"></a>
               </div>
-              <a href="https://youtu.be/vUwOW5VXM0Y" target="_blank" rel="noopener noreferrer" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail"> <!-- new thumbnail needed here -->
+              <a href="https://youtu.be/akid1fziH_8"  target="_blank" rel="noopener noreferrer" class="post-thumb">
+                    <img src="../free/assets/img/sample-thumbnail.png" alt="bootstrap" >
               </a>
             </div>
-          <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/vUwOW5VXM0Y" target="_blank" rel="noopener noreferrer">Web development (Indepth) </a></h5>
+            <div class="body">
+              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8" target="_blank" rel="noopener noreferrer">Get Started With Your First Text Editor</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/ola-profile3.png" alt="ola profile image">
+                  <img src="../free/assets/img/gray copy-min.png" alt="profile image">
                   </div>
-
-                  <div class=" d-flex justify-content-between align-items-center ">
-                  <span>Olanrewaju Kabir</span>
+                  <span>Dagogo Uranta</span>
+                 
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>15th April 2022 &nbsp; (5 hours long) </span>
-                  </div>
-
+                  <span>19th April 2022 &nbsp; (18 mins long) </span>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-         <div  class=" py-6 mx-5 col-lg-4 wow ">
-         <h1 style ="font-size:32px !important">Web Development Indepth </h1>
+        <div  class=" py-6  mx-5 col-lg-4 wow ">
+        <h1 style ="font-size:32px !important">Visual Studio Code</h1>
            <br/>
-          This video takes a thorough look at what web development is . It explores the purpose of each pillar of web development (HTML ,CSS and Javascript),
-           and displays how they interact with one another. It then goes into a tutorial on each of these technologies and how to set them up.
+          This is a walkthrough , on installing and setting up visual studio code. 
+          VS code was created by microsoft, and is one of the most popular code editors in the world, because of it's multitude of features and simplicity to use.
+          At the end of this tutorial,you will have downloaded and set up visual studio code. You will also be familiar with a basic navigation of VS code.
         </div> 
 
-        <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
-        <a href="https://youtu.be/vUwOW5VXM0Y" target="_blank" rel="noopener noreferrer">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
-        <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
+        <div  class=" py-2 col-lg-2 wow  d-flex flex-column justify-content-around align-items-center pl-5">
+        <a href="https://youtu.be/akid1fziH_8" target="_blank" rel="noopener noreferrer"> <button type="button" class="btn btn-info dark "> 
+          Watch <i class="mdi mdi-arrow-right"></i>
+          </a>
+          <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
+        </button>
        
-         <div  class="   d-flex justify-content-around align-items-center ">
+
+        <div  class="  d-flex justify-content-around align-items-center ">
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -547,11 +550,13 @@
         <span class="fa fa-star"></span>
         </div> 
 
-      </div> 
-        
+        </div> 
 
-      </div> <!-- video row ending -->
+     
+      </div> <!--video row ending -->
 
+
+     
       <br>
       <hr/>
       <br>

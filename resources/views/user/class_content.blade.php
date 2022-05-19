@@ -319,7 +319,7 @@
  
  <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
   <label for="inputAddress2" class="form-label">Develolpers</label>
-            <select name="developer" id="dev-name" class="custom-select">
+            <select name="developer" id="dev-name" class="custom-select" required>
               <option value="">Developers</option>
               <option value="Backend Developer"  >Olanrewaju Kabir Backend Developer</option>
               <option value="Frontend Developer"  >Dagogo Uranta Frontend Develper</option>
