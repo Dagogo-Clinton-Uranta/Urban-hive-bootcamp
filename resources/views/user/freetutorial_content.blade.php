@@ -54,15 +54,15 @@
               </a>
             </div>
             <div class="body">
-              <h5 class="post-title"><a href="blog-details.html"> May 12th 2022, web development fundamentals(1).</a></h5>
+              <h5 class="post-title"><a href="blog-details.html"> Web Development Fundamentals, Full Day Session (1).</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
-                  <img src="../free/assets/img/ola-profile3.png" alt="profile pic">
+                  <img src="../free/assets/img/gray copy-min.png" alt="profile pic">
                   </div>
                   <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 &nbsp; (2 hours long) </span>
+                  <span>12th May 2022 &nbsp; (2 hours long) </span>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@
               </a>
             </div>
             <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/qP_dXkHoZ4M" target="_blank" rel="noopener noreferrer">May 12th 2022, web development fundamentals(2).</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/qP_dXkHoZ4M" target="_blank" rel="noopener noreferrer">Web Development Fundamentals, Full Day Session (2).</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -132,7 +132,7 @@
                   <span>Dagogo Uranta</span>
                  
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 &nbsp; (48 mins long) </span>
+                  <span>12th May 2022 &nbsp; (48 mins long) </span>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@
         </div>
 
         <div  class=" py-6  mx-5 col-lg-4 wow ">
-        <h1 style ="font-size:32px !important">Web development fundamentals (2)</h1>
+        <h1 style ="font-size:32px !important">Web Development Fundamentals (2)</h1>
            <br/>
           This video continues on from the last one, It delves into more HTML and explores CSS properties. We try to create a simple blog page here, showing the capabilities of CSS.
         </div> 
@@ -193,7 +193,7 @@
                   <div class=" d-flex justify-content-between align-items-center ">
                   <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 &nbsp; (35 mins long) </span>
+                  <span>12th May 2022 &nbsp; (35 mins long) </span>
                   </div>
 
                 </div>
