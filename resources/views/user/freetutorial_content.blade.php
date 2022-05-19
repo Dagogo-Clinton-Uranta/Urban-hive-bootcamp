@@ -50,19 +50,19 @@
                 <a href=""></a>
               </div>
               <a href="https://youtu.be/N3KLE4I3rNQ"  target="_blank" rel="noopener noreferrer" class="post-thumb">
-                <img src="../free/assets/img/ofundamentals(1).png" alt="video thumbnail">
+                <img src="../free/assets/img/fundamentals(1).png" alt="video thumbnail">
               </a>
             </div>
             <div class="body">
-              <h5 class="post-title"><a href="blog-details.html">Ever wondered what Programming is about? Find out here.</a></h5>
+              <h5 class="post-title"><a href="blog-details.html"> May 12th 2022, web development fundamentals(1).</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
                   <img src="../free/assets/img/ola-profile3.png" alt="profile pic">
                   </div>
-                  <span>Olanrewaju Kabir</span>
+                  <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 &nbsp; (1 hour long) </span>
+                  <span>19th April 2022 &nbsp; (2 hours long) </span>
                 </div>
               </div>
             </div>
@@ -74,10 +74,10 @@
          </div>  <!--  col-lg 4 ending -->
        
          <div  class=" py-6 mx-5 col-lg-4 wow ">
-           <h1 style ="font-size:32px !important"> Intro to Programming</h1>
+           <h1 style ="font-size:32px !important"> Web development fundamentals (1)</h1>
            <br/>
-          This Video is for absolute beginners with no experience in programming. 
-          It aims to give a high level overview into what programmers do, and the capability of software programs.
+          In this video we go through how web pages work on the internet , Installing your first code editor and explain the terms HTML and CSS, with examples.
+          This video is perfect for beginners who have no idea what web development is about.
         </div> 
 
         <div  class=" py-2 col-lg-2 wow  d-flex flex-column justify-content-around align-items-center pl-5">
@@ -123,7 +123,7 @@
               </a>
             </div>
             <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/qP_dXkHoZ4M" target="_blank" rel="noopener noreferrer">Get Started With Your First Text Editor</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/qP_dXkHoZ4M" target="_blank" rel="noopener noreferrer">May 12th 2022, web development fundamentals(2).</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -132,7 +132,7 @@
                   <span>Dagogo Uranta</span>
                  
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 &nbsp; (18 mins long) </span>
+                  <span>19th April 2022 &nbsp; (48 mins long) </span>
                 </div>
               </div>
             </div>
@@ -140,11 +140,9 @@
         </div>
 
         <div  class=" py-6  mx-5 col-lg-4 wow ">
-        <h1 style ="font-size:32px !important">Visual Studio Code</h1>
+        <h1 style ="font-size:32px !important">Web development fundamentals (2)</h1>
            <br/>
-          This is a walkthrough , on installing and setting up visual studio code. 
-          VS code was created by microsoft, and is one of the most popular code editors in the world, because of it's multitude of features and simplicity to use.
-          At the end of this tutorial,you will have downloaded and set up visual studio code. You will also be familiar with a basic navigation of VS code.
+          This video continues on from the last one, It delves into more HTML and explores CSS properties. We try to create a simple blog page here, showing the capabilities of CSS.
         </div> 
 
         <div  class=" py-2 col-lg-2 wow  d-flex flex-column justify-content-around align-items-center pl-5">
@@ -185,7 +183,7 @@
               </a>
             </div>
           <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/0_KwEWSCDqE" target="_blank" rel="noopener noreferrer" >Basic Web development</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/0_KwEWSCDqE" target="_blank" rel="noopener noreferrer" >CSS units tutorial</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -193,9 +191,9 @@
                   </div>
 
                   <div class=" d-flex justify-content-between align-items-center ">
-                  <span>Olanrewaju Kabir</span>
+                  <span>Dagogo Uranta</span>
                   <span style="color:white">  space filler</span> <!-- i made this whit to create a pseudo space -->
-                  <span>19th April 2022 &nbsp; (18 mins long) </span>
+                  <span>19th April 2022 &nbsp; (35 mins long) </span>
                   </div>
 
                 </div>
@@ -205,10 +203,9 @@
         </div>
 
          <div  class=" py-6 mx-5 col-lg-4 wow ">
-         <h1 style ="font-size:32px !important">Basic HTML & CSS </h1>
+         <h1 style ="font-size:32px !important">CSS Units Explained </h1>
            <br/>
-          In this video , you will follow one of our developers to create a basic page with html and css. This is to give you a taste of development of web pages and how they interact.
-          You will create html , css and Javascript files in this video and implement some basic functionality.
+          Here we go through the types of units in CSS , explaining both absolute and relative units. We see some practical examples/use cases of these units as well.
         </div> 
 
         <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
