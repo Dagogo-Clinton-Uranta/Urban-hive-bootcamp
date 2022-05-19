@@ -49,8 +49,8 @@
               <div class="post-category">
                 <a href=""></a>
               </div>
-              <a href="https://youtu.be/9GQgRd3Yz1U"  target="_blank" rel="noopener noreferrer" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3.png" alt="video thumbnail">
+              <a href="https://youtu.be/N3KLE4I3rNQ"  target="_blank" rel="noopener noreferrer" class="post-thumb">
+                <img src="../free/assets/img/ofundamentals(1).png" alt="video thumbnail">
               </a>
             </div>
             <div class="body">
@@ -82,7 +82,7 @@
 
         <div  class=" py-2 col-lg-2 wow  d-flex flex-column justify-content-around align-items-center pl-5">
          
-        <a href="https://youtu.be/9GQgRd3Yz1U"  target="_blank" rel="noopener noreferrer" class="post-thumb">
+        <a href="https://youtu.be/N3KLE4I3rNQ"  target="_blank" rel="noopener noreferrer" class="post-thumb">
         <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button>
         </a>
         <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
@@ -118,12 +118,12 @@
               <div class="post-category">
                 <a href="#"></a>
               </div>
-              <a href="https://youtu.be/akid1fziH_8" target="_blank" rel="noopener noreferrer" class="post-thumb">
-                    <img src="../free/assets/img/sample-thumbnail.png" alt="bootstrap" >
+              <a href="https://youtu.be/qP_dXkHoZ4M" target="_blank" rel="noopener noreferrer" class="post-thumb">
+                    <img src="../free/assets/img/fundamentals(2).png" alt="bootstrap" >
               </a>
             </div>
             <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/akid1fziH_8" target="_blank" rel="noopener noreferrer">Get Started With Your First Text Editor</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/qP_dXkHoZ4M" target="_blank" rel="noopener noreferrer">Get Started With Your First Text Editor</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -148,7 +148,7 @@
         </div> 
 
         <div  class=" py-2 col-lg-2 wow  d-flex flex-column justify-content-around align-items-center pl-5">
-        <a href="https://youtu.be/akid1fziH_8" target="_blank" rel="noopener noreferrer" > <button type="button" class="btn btn-info dark "> 
+        <a href="https://youtu.be/qP_dXkHoZ4M" target="_blank" rel="noopener noreferrer" > <button type="button" class="btn btn-info dark "> 
           Watch <i class="mdi mdi-arrow-right"></i>
           </a>
           <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
@@ -180,12 +180,12 @@
               <div class="post-category">
                 <a href="#"></a>
               </div>
-              <a href="https://youtu.be/0wSzCv1nM28"  target="_blank" rel="noopener noreferrer" class="post-thumb">
-                <img src="../free/assets/img/ola-profile3.png" alt="html thumbnail">
+              <a href="https://youtu.be/0_KwEWSCDqE"  target="_blank" rel="noopener noreferrer" class="post-thumb">
+                <img src="../free/assets/img/CSS-units.png" alt="html thumbnail">
               </a>
             </div>
           <div class="body">
-              <h5 class="post-title"><a href="https://youtu.be/0wSzCv1nM28" target="_blank" rel="noopener noreferrer" >Basic Web development</a></h5>
+              <h5 class="post-title"><a href="https://youtu.be/0_KwEWSCDqE" target="_blank" rel="noopener noreferrer" >Basic Web development</a></h5>
               <div class="site-info">
                 <div class="avatar mr-2">
                   <div class="avatar-img">
@@ -212,7 +212,7 @@
         </div> 
 
         <div  class=" py-2 col-lg-2 wow d-flex flex-column justify-content-around align-items-center pl-5">
-        <a href="https://youtu.be/0wSzCv1nM28" target="_blank" rel="noopener noreferrer">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
+        <a href="https://youtu.be/0_KwEWSCDqE" target="_blank" rel="noopener noreferrer">  <button type="button" class="btn btn-info dark">Watch <i class="mdi mdi-arrow-right"></i></button></a>
         <a href="{{ url('student_class')}}">  <button type="button" class="btn btn-info dark">Book Dev <i class="mdi mdi-calendar"></i></button></a>
        
          <div  class="   d-flex justify-content-around align-items-center ">
